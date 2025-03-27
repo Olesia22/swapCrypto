@@ -1,0 +1,42 @@
+body {
+	background: #121212;
+	color: #fff;
+	justify-content: center;
+	align-items: center;
+	padding-top: 150px;
+}
+
+.container {
+	background: #1e1e1e;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(255, 255, 255, .1);
+	text-align: center;
+	width: 500px;
+  margin: 0 auto;
+}
+
+select, input, button {
+	width: 100%;
+	padding: 10px;
+	margin: 10px 0;
+	border: none;
+	font-size: 16px;
+	box-sizing: border-box;
+}
+
+button {
+	background: #ff9800;
+	columns: #fff;
+	cursor: pointer;
+}
+
+button:hover {
+	background: #e68900;
+}
+
+label {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}

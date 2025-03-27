@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Swap Crypto JS</title>
+</head>
+<body>
+	<section class="container">
+		<input type="number" id="usdtBalance" placeholder="Enter USDT balance">
+		<label>
+			Balance
+			<input type="number" id="amount" placeholder="Amount"	value="0" readonly>
+		</label>
+		
+		<select  id="fromCurrency">
+			<option value="bitcoin">Bitcoin (BTC)</option>
+			<option value="ethereum">Ethereum (ETH)</option>
+			<option value="notcoin">Notcoin (TON)</option>
+			<option value="tether" selected>Tether (USDT)</option>
+		</select>
+		<select  id="toCurrency">
+			<option value="bitcoin">Bitcoin (BTC)</option>
+			<option value="ethereum">Ethereum (ETH)</option>
+			<option value="notcoin">Notcoin (TON)</option>
+			<option value="tether">Tether (USDT)</option>
+		</select>
+		<button>Swap</button>
+		<h3 id="result"></h3>
+	</section>
+
+
+	<script src="script.js"></script>
+</body>
+</html>
